@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Post with images</title>
+        <title>New Post</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
 
         <!--[if IE]>
@@ -15,8 +15,7 @@
                 <h1><a href="/">pelicansite </a></h1>
                 <nav><ul>
                     <li><a href="/category/dev.html">Dev</a></li>
-                    <li><a href="/category/misc.html">misc</a></li>
-                    <li class="active"><a href="/category/prod.html">Prod</a></li>
+                    <li><a href="/category/prod.html">Prod</a></li>
                     <li><a href="/category/test.html">Test</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
@@ -24,8 +23,8 @@
   <article>
     <header>
       <h1 class="entry-title">
-        <a href="/new-post.html" rel="bookmark"
-           title="Permalink to Post with images">Post with images</a></h1>
+        <a href="/drafts/new-post.html" rel="bookmark"
+           title="Permalink to New Post">New Post</a></h1>
     </header>
 
     <div class="entry-content">
@@ -37,7 +36,7 @@
         <address class="vcard author">
                 By                         <a class="url fn" href="/author/shawnzoom.html">shawnzoom</a>
         </address>
-<p>In <a href="/category/prod.html">Prod</a>.</p>
+<p>In <a href="/category/misc.html">misc</a>.</p>
 
 </footer><!-- /.post-info -->      <p>Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use <code>figure</code> with the appropriate <code>class</code>. Each instance of <code>figure</code> is auto-numbered and displayed in the caption.</p>
 <h2>Figures (for images or video)</h2>
@@ -49,30 +48,30 @@
 
 <h3>Two Up</h3>
 <p>Apply the <code>half</code> class like so to display two images side by side that share the same caption.</p>
+<p _="%" endhighlight="endhighlight">{% highlight html %}
 <figure class="half">
     <img src="/images/image-filename-1.jpg" alt="image">
     <img src="/images/image-filename-2.jpg" alt="image">
     <figcaption>Caption describing these two images.</figcaption>
-</figure>
-
+</figure></p>
 <p>And you'll get something that looks like this:</p>
 <figure class="half">
-    <a href="http://placehold.it/250x300.jpg"><img src="http://placehold.it/250x300.jpg" alt="image"></a>
-    <a href="http://placehold.it/250x300.jpg"><img src="http://placehold.it/250x300.jpg" alt="image"></a>
-    <img src="http://placehold.it/250x300.jpg" alt="image">
-    <img src="http://placehold.it/250x300.jpg" alt="image">
+    <a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
+    <a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
+    <img src="http://placehold.it/600x300.jpg" alt="image">
+    <img src="http://placehold.it/600x300.jpg" alt="image">
     <figcaption>Two images.</figcaption>
 </figure>
 
 <h3>Three Up</h3>
 <p>Apply the <code>third</code> class like so to display three images side by side that share the same caption.</p>
+<p _="%" endhighlight="endhighlight">{% highlight html %}
 <figure class="third">
     <a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
     <a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
     <a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
     <figcaption>Caption describing these three images.</figcaption>
-</figure>
-
+</figure></p>
 <p>And you'll get something that looks like this:</p>
 <figure class="third">
     <a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
