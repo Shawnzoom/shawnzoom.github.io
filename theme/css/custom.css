@@ -1,9 +1,4 @@
+
 @import url("main.css");
+@import url("hack.css");
 
-body {
-    font:1.3em/1.3 "Hoefler Text","Georgia",Georgia,serif,sans-serif;
-}
-
-.post-info{
-    display: none;
-}
