@@ -20,20 +20,27 @@
 <section id="content" class="body">
   <header>
     <h2 class="entry-title">
-      <a href="/first_post.html" rel="bookmark"
-         title="Permalink to first_post">first_post</a></h2>
+      <a href="/a-post-with-video.html" rel="bookmark"
+         title="Permalink to A post with video">A post with video</a></h2>
  
   </header>
   <footer class="post-info">
-    <abbr class="published" title="2014-12-13T18:32:00-08:00">
-      Published: Sat 13 December 2014
+    <abbr class="published" title="2016-05-28T15:43:00-07:00">
+      Published: Sat 28 May 2016
     </abbr>
     <address class="vcard author">
       By           <a class="url fn" href="/author/shawnzoom.html">shawnzoom</a>
     </address>
   </footer><!-- /.post-info -->
   <div class="entry-content">
-    <p>Hello world from Pelican!</p>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/pdSp4Y4GOQs" frameborder="0"> </iframe>
+
+<p>Video embeds are responsive and scale with the width of the main content block with the help of <a href="http://fitvidsjs.com/">FitVids</a>.</p>
+<p>Not sure if this only effects Kramdown or if it's an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the <code>&lt;iframe&gt;</code> tags and remove <code>allowfullscreen</code>. Example below:</p>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/PWf4WUoMXwg" frameborder="0"> </iframe>
+
+<p>And here's a Vimeo embed for testing purposes.</p>
+<iframe src="//player.vimeo.com/video/98146708?title=0&amp;byline=0" width="560" height="315" frameborder="0"> </iframe>
   </div><!-- /.entry-content -->
 </section>
         
